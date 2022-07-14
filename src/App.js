@@ -16,13 +16,25 @@ function App() {
         </h1>
         <div className="socials">
           <div className="icons">
-            <a href="https://twitter.com/literatureeee_">
+            <a
+              href="https://twitter.com/literatureeee_"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <AiFillTwitterCircle size={50} style={{ color: "black" }} />
             </a>
-            <a href="https://github.com/recursivelymanan">
+            <a
+              href="https://github.com/recursivelymanan"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <AiFillGithub size={50} style={{ color: "black" }} />
             </a>
-            <a href="https://www.linkedin.com/in/manan-chopra22/">
+            <a
+              href="https://www.linkedin.com/in/manan-chopra22/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <AiFillLinkedin size={50} style={{ color: "black" }} />
             </a>
           </div>

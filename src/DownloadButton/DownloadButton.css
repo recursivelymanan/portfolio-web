@@ -1,8 +1,13 @@
 .button {
-    transition-duration: 0.4s;
+  transition-duration: 0.4s;
 }
 
 .button:hover {
-    background-color: aquamarine;
-    color: white;
+  background-color: aquamarine;
+  color: white;
+}
+
+a {
+  color: #111111;
+  text-decoration: none;
 }

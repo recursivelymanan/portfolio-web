@@ -8,18 +8,19 @@ function App() {
   return (
     <>
       <title>Manan Chopra</title>
-      <div className="root">
-        <NavBar />
-        <section id="about" />
-        <section id="projects" />
-        <section id="resume" />
-        <section id="contact" />
-        <Socials />
+      <header className="nav">
+        <NavBar className="nav" />
+      </header>
+      <section id="about"></section>
+      <section id="projects"></section>
+      <section id="resume">
         <DownloadButton
           path="./mananChopraLabResume.pdf"
           id="resume-download"
         />
-      </div>
+      </section>
+      <section id="contact"></section>
+      <Socials />
     </>
   );
 }

@@ -1,5 +1,4 @@
 import "./App.css";
-import "./index.css";
 import NavBar from "./NavBar/NavBar";
 import IconLink from "./IconLink/IconLink";
 import Socials from "./Socials/Socials";

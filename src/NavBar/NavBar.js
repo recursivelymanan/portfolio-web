@@ -15,17 +15,17 @@ function NavBar() {
           </Link>
         </li>
         <li>
-          <Link activeClass="active" smooth spy to="projects">
+          <Link activeClass="active" smooth spy to="projects" offset={-70}>
             PROJECTS
           </Link>
         </li>
         <li>
-          <Link activeClass="active" smooth spy to="resume">
+          <Link activeClass="active" smooth spy to="resume" offset={-70}>
             RESUME
           </Link>
         </li>
         <li>
-          <Link activeClass="active" smooth spy to="contact">
+          <Link activeClass="active" smooth spy to="contact" offset={-70}>
             CONTACT ME
           </Link>
         </li>

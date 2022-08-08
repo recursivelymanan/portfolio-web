@@ -10,8 +10,31 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding-top: 65px;
 }
 
+.active {
+  font-weight: bold;
+}
 
+.nav {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: -5px;
+  z-index: 2;
+  height: 70px;
+  min-height: 70px;
+  width: 100%;
+  background-color: coral;
+  padding: 1;
+  box-shadow: 0 0.125rem 0.25rem 0 rgb(0 0 0 / 11%);
+}
 
+#about,#resume {
+  background-color: antiquewhite;
+}
 
+#test {
+  padding-top: 0;
+}

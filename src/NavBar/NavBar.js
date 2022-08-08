@@ -10,7 +10,7 @@ function NavBar() {
           <AiFillCaretRight size={15} style={{ color: "black" }} />
         </li>
         <li>
-          <Link activeClass="active" smooth spy to="about">
+          <Link activeClass="active" smooth spy to="about" offset={-70}>
             MANAN CHOPRA
           </Link>
         </li>
@@ -20,7 +20,7 @@ function NavBar() {
           </Link>
         </li>
         <li>
-          <Link activeClass="active" smooth spy to="blog">
+          <Link activeClass="active" smooth spy to="resume">
             RESUME
           </Link>
         </li>

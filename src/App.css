@@ -3,6 +3,17 @@ section {
   height: 140vh;
 }
 
+section#footer {
+  display: grid;
+  height: 5vh;
+  background-color: coral;
+  align-items: center;
+}
+
+#footer-note {
+  text-align: center;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",

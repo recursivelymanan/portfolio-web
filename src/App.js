@@ -1,4 +1,5 @@
 import "./App.css";
+import "./index.css";
 import NavBar from "./NavBar/NavBar";
 import IconLink from "./IconLink/IconLink";
 import Socials from "./Socials/Socials";
@@ -10,6 +11,10 @@ function App() {
       <title>Manan Chopra</title>
       <div className="root">
         <NavBar />
+        <section id="about" />
+        <section id="projects" />
+        <section id="resume" />
+        <section id="contact" />
         <Socials />
         <DownloadButton
           path="./mananChopraLabResume.pdf"

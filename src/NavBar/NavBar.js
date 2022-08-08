@@ -1,9 +1,14 @@
 import { Link } from "react-scroll";
+import { AiFillCaretRight } from "react-icons/ai";
+import "./NavBar.css";
 
 function NavBar() {
   return (
-    <nav className="navbar">
+    <nav id="navbar">
       <ul>
+        <li id="nav-icon">
+          <AiFillCaretRight size={15} style={{ color: "black" }} />
+        </li>
         <li>
           <Link activeClass="active" smooth spy to="about">
             MANAN CHOPRA

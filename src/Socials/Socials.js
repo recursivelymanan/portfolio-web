@@ -8,13 +8,13 @@ function Socials() {
     <div className="socials">
       <div className="icons">
         <a href="https://twitter.com/literatureeee_">
-          <AiFillTwitterCircle size={50} style={{ color: "black" }} />
+          <AiFillTwitterCircle size={60} style={{ color: "black" }} />
         </a>
         <a href="https://github.com/recursivelymanan">
-          <AiFillGithub size={50} style={{ color: "black" }} />
+          <AiFillGithub size={60} style={{ color: "black" }} />
         </a>
         <a href="https://www.linkedin.com/in/manan-chopra22/">
-          <AiFillLinkedin size={50} style={{ color: "black" }} />
+          <AiFillLinkedin size={60} style={{ color: "black" }} />
         </a>
       </div>
     </div>

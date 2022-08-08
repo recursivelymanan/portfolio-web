@@ -3,23 +3,13 @@ h1 {
   text-align: center;
 }
 
-div.socials {
-  position: relative;
-  top: 10px;
-}
-
 div.icons {
   text-align: center;
   position: relative;
   top: 0px;
 }
 
-div.icons-msg {
-  text-align: center;
-  padding-top: 0;
-  position: relative;
-  top: -20px;
-}
+
 .react-icons {
   vertical-align: middle;
 }

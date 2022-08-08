@@ -21,7 +21,7 @@ function App() {
       </section>
       <section id="contact"></section>
       <section id="footer">
-        <span id="footer-note"> This site was made by Manan Chopra in La Jolla </span>
+        <span id="footer-note"> made by manan chopra in la jolla </span>
       </section>
       <Socials />
     </>

@@ -1,17 +1,16 @@
 section {
   display: grid;
-  height: 140vh;
 }
 
-section#footer {
-  display: grid;
-  height: 5vh;
+#footer {
+  height: fit-content;
   background-color: coral;
   align-items: center;
 }
 
 #footer-note {
   text-align: center;
+  margin: 8px;
 }
 
 body {
@@ -44,8 +43,14 @@ body {
 
 #about,#resume {
   background-color: antiquewhite;
+  height: 140vh;
 }
 
-#test {
-  padding-top: 0;
+#contact {
+  height: 30vh;
 }
+
+#projects {
+  height: 140vh
+}
+

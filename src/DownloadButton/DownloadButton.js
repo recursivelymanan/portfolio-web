@@ -4,7 +4,7 @@ import { AiOutlineDownload } from "react-icons/ai";
 
 function DownloadButton() {
   return (
-    <div id="horizontal">
+    <div>
       <a href={resume} download="chopra_resume.pdf">
         <AiOutlineDownload size={50} style={{ color: "black" }} />
       </a>

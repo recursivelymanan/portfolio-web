@@ -1,6 +1,6 @@
 import "./App.css";
 import NavBar from "./NavBar/NavBar";
-import IconLink from "./IconLink/IconLink";
+import Contact from "./Contact/Contact";
 import Socials from "./Socials/Socials";
 import DownloadButton from "./DownloadButton/DownloadButton";
 
@@ -14,14 +14,13 @@ function App() {
       <section id="about"></section>
       <section id="projects"></section>
       <section id="resume">
-        <DownloadButton
-          path="./mananChopraLabResume.pdf"
-          id="resume-download"
-        />
+        <DownloadButton />
       </section>
-      <section id="contact"></section>
+      <section id="contact">
+        <Contact />
+      </section>
       <section id="footer">
-        <span id="footer-note"> made by manan chopra in la jolla </span>
+        <span id="footer-note"> hand coded by manan chopra in la jolla </span>
       </section>
       <Socials />
     </>

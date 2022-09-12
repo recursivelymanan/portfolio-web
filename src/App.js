@@ -3,6 +3,7 @@ import NavBar from "./NavBar/NavBar";
 import Contact from "./Contact/Contact";
 import Socials from "./Socials/Socials";
 import DownloadButton from "./DownloadButton/DownloadButton";
+import Projects from "./Projects/Projects";
 
 function App() {
   return (
@@ -12,7 +13,9 @@ function App() {
         <NavBar className="nav" />
       </header>
       <section id="about"></section>
-      <section id="projects"></section>
+      <section id="projects">
+        <Projects />
+      </section>
       <section id="resume">
         <DownloadButton />
       </section>

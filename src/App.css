@@ -41,7 +41,8 @@ body {
   box-shadow: 0 0.125rem 0.25rem 0 rgb(0 0 0 / 11%);
 }
 
-#about,#resume {
+#about,
+#resume {
   background-color: antiquewhite;
   height: 140vh;
 }
@@ -51,6 +52,9 @@ body {
 }
 
 #projects {
-  height: 140vh
+  height: 140vh;
 }
 
+#footer {
+  height: 3vh;
+}

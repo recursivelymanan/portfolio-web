@@ -1,0 +1,32 @@
+/* Set the font and size for the notebook */
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 14px;
+}
+
+/* Set the background color for the notebook cells */
+CodeBlock,
+MarkdownBlock {
+  background-color: #303030;
+  border: 1px solid #cccccc;
+  padding: 10px;
+}
+
+/* Set the font color and style for markdown cells */
+MarkdownBlock {
+  color: #eeeeee;
+  font-style: normal;
+}
+
+/* Set the font color and style for code cells */
+CodeBlock {
+  color: #eeeeee;
+  font-family: "Courier New", Courier, monospace;
+  font-style: normal;
+}
+
+/* Set the border and background color for cell output */
+.output {
+  border: 1px solid #cccccc;
+  background-color: #424242;
+}

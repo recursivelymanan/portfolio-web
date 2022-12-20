@@ -18,7 +18,10 @@ function App() {
         <Projects />
       </section>
       <section id="resume">
-        <DownloadButton />
+        <div>
+          <h2>Download my resume here!</h2>
+          <DownloadButton />
+        </div>
       </section>
       <section id="contact">
         <Contact />

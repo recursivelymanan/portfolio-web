@@ -44,11 +44,12 @@ body {
 #about,
 #resume {
   background-color: antiquewhite;
-  height: 140vh;
+  height: fit-content;
 }
 
 #contact {
   height: fit-content;
+  padding-bottom: 20px;
 }
 
 #projects {

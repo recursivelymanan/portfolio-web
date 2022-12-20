@@ -1,0 +1,22 @@
+{
+  "publications": [
+    {
+      "title": "Chromatin Accessibility and Transcriptional Differences in Human Stem Cell-Derived Early-Stage Retinal Organoids",
+      "date": "Oct 2022",
+      "status": "published",
+      "url": "https://www.mdpi.com/2073-4409/11/21/3412"
+    },
+    {
+      "title": "Restoring Vision and Rebuilding the Retina by Müller Glial Cell Reprogramming",
+      "date": "Dec 2022",
+      "status": "published",
+      "url": "null"
+    }
+  ],
+  "presentations": [
+    {
+      "title": "Induction of Retinal Ganglion Cells through Transcription Factor Mediated Reprogramming",
+      "date": "Aug 2022"
+    }
+  ]
+}

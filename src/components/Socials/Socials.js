@@ -2,13 +2,14 @@ import "./Socials.css";
 import { AiFillTwitterCircle } from "react-icons/ai";
 import { AiFillGithub } from "react-icons/ai";
 import { AiFillLinkedin } from "react-icons/ai";
-import {ImLab} from "react-icons/im"
+import { ImLab } from "react-icons/im";
+import React from "react";
 
 function Socials() {
   return (
     <div className="socials">
       <div className="icons">
-      <a
+        <a
           href="http://wahlinlab.ucsd.edu/meet-wahling-lab/manan-chopra"
           target="_blank"
           rel="noopener noreferrer"

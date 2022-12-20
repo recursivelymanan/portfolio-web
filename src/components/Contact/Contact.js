@@ -1,6 +1,7 @@
 import "./Contact.css";
 import { AiOutlineMail } from "react-icons/ai";
 import { AiFillLinkedin } from "react-icons/ai";
+import React from "react";
 
 function Contact() {
   return (

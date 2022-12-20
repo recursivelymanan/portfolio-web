@@ -1,6 +1,7 @@
 import "./DownloadButton.css";
-import resume from "../mananChopraLabResume.pdf";
+import resume from "../../mananChopraLabResume.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
+import React from "react";
 
 function DownloadButton() {
   return (

@@ -48,13 +48,14 @@ body {
 }
 
 #contact {
-  height: 30vh;
+  height: fit-content;
 }
 
 #projects {
-  height: 140vh;
+  height: fit-content;
+  padding-bottom: 25px;
 }
 
 #footer {
-  height: 3vh;
+  height: fit-content;
 }

@@ -1,6 +1,7 @@
 import { Link } from "react-scroll";
 import { AiFillCaretRight } from "react-icons/ai";
 import "./NavBar.css";
+import React from "react";
 
 function NavBar() {
   return (

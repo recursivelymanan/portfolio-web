@@ -26,7 +26,7 @@ CodeBlock {
 }
 
 /* Set the border and background color for cell output */
-.output {
+output {
   border: 1px solid #cccccc;
   background-color: #424242;
 }

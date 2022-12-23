@@ -1,32 +1,89 @@
-/* Set the font and size for the notebook */
+/* Set the background color to a light grey */
 body {
-  font-family: "Segoe UI", Arial, sans-serif;
-  font-size: 14px;
+  background-color: #e0e0e0;
 }
 
-/* Set the background color for the notebook cells */
-CodeBlock,
-MarkdownBlock {
-  background-color: #303030;
+/* Set the font color to a dark grey */
+body,
+pre,
+code {
+  color: #333333;
+}
+
+/* Set the cell background color to white */
+.cell {
+  background-color: #ffffff;
   border: 1px solid #cccccc;
-  padding: 10px;
+  margin: 0 auto;
+  position: relative;
+  width: 90%;
 }
 
-/* Set the font color and style for markdown cells */
-MarkdownBlock {
-  color: #eeeeee;
-  font-style: normal;
+/* Add a "Python" label to the bottom right corner of code cells */
+.cell:not(.markdown):after {
+  background-color: #ffffff;
+  border-radius: 3px;
+  bottom: 5px;
+  color: #333333;
+  content: "Python";
+  font-size: 10px;
+  right: 5px;
+  padding: 3px 5px;
+  position: absolute;
 }
 
-/* Set the font color and style for code cells */
-CodeBlock {
-  color: #eeeeee;
-  font-family: "Courier New", Courier, monospace;
-  font-style: normal;
+/* Set the markdown cell font color to a dark grey */
+.cell.markdown .inner_cell {
+  color: #333333;
 }
 
-/* Set the border and background color for cell output */
-output {
-  border: 1px solid #cccccc;
-  background-color: #424242;
+/* Set the input/output prompt font color to a dark grey */
+.prompt {
+  color: #333333;
+}
+
+/* Set the input/output area font color to a dark grey */
+.output_area {
+  color: #333333;
+}
+
+/* Set the markdown cell header font color to a dark grey */
+.cell.markdown h1,
+.cell.markdown h2,
+.cell.markdown h3,
+.cell.markdown h4,
+.cell.markdown h5,
+.cell.markdown h6 {
+  color: #333333;
+}
+
+/* Set the markdown cell link color to a blue */
+.cell.markdown a {
+  color: #007acc;
+}
+
+/* Set the markdown cell link hover color to a medium blue */
+.cell.markdown a:hover {
+  color: #0066cc;
+}
+
+/* Set the toolbar background color to a light grey */
+.toolbar {
+  background-color: #e0e0e0;
+}
+
+/* Set the toolbar font color to a dark grey */
+.toolbar,
+.toolbar a {
+  color: #333333;
+}
+
+/* Set the toolbar button hover color to a medium grey */
+.toolbar a:hover {
+  color: #999999;
+}
+
+/* Set the kernel logo font color to a dark grey */
+.kernel_logo {
+  color: #333333;
 }

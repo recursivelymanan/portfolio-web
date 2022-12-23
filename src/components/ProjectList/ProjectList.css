@@ -1,10 +1,14 @@
-Typography {
-  font-family: "Times New Roman";
-}
-
 Card {
   word-wrap: break-word;
   display: inline-block;
+}
+
+.MuiCard-root {
+  border: 5px solid #faebd7;
+}
+
+.MuiTypography-root {
+  font-family: "Trebuchet MS", "sans-serif" !important;
 }
 
 #left {

@@ -7,11 +7,13 @@ function Contact() {
   return (
     <>
       <div className="contact_box">
-        <h1> You can contact me through email or LinkedIn </h1>
+        <h1 className="contact_header">
+          You can contact me through email or LinkedIn
+        </h1>
         <div className="horizontal">
           <div>
             <AiOutlineMail size={35} />
-            <h3>m1chopra@ucsd.edu</h3>
+            <h3 className="contact_text">m1chopra@ucsd.edu</h3>
           </div>
           <div>
             <a
@@ -21,7 +23,7 @@ function Contact() {
             >
               <AiFillLinkedin size={35} style={{ color: "black" }} />
             </a>
-            <h3>manan-chopra-22</h3>
+            <h3 className="contact_text">manan-chopra-22</h3>
           </div>
         </div>
       </div>

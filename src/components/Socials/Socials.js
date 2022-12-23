@@ -14,28 +14,36 @@ function Socials() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <ImLab size={53} style={{ color: "black" }} />
+          <ImLab className="icon" size={53} style={{ color: "black" }} />
         </a>
         <a
           href="https://twitter.com/literatureeee_"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <AiFillTwitterCircle size={60} style={{ color: "black" }} />
+          <AiFillTwitterCircle
+            className="icon"
+            size={60}
+            style={{ color: "black" }}
+          />
         </a>
         <a
           href="https://github.com/recursivelymanan"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <AiFillGithub size={60} style={{ color: "black" }} />
+          <AiFillGithub className="icon" size={60} style={{ color: "black" }} />
         </a>
         <a
           href="https://www.linkedin.com/in/manan-chopra22/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <AiFillLinkedin size={60} style={{ color: "black" }} />
+          <AiFillLinkedin
+            className="icon"
+            size={60}
+            style={{ color: "black" }}
+          />
         </a>
       </div>
     </div>

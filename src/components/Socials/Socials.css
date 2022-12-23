@@ -4,3 +4,11 @@ div.socials {
   right: 0;
   z-index: 3;
 }
+
+.icon {
+  transition: all 0.2s ease-in-out !important;
+}
+
+.icon:hover {
+  color: white !important;
+}

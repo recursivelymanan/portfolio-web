@@ -1,10 +1,10 @@
-h1 {
+.contact_header {
   text-align: center;
   margin-bottom: 30px;
   height: fit-content;
 }
 
-h3 {
+.contact_text {
   font-weight: normal;
   margin-top: 0px;
   margin-bottom: 5px;

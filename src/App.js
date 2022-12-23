@@ -6,8 +6,9 @@ import Socials from "./components/Socials/Socials";
 import DownloadButton from "./components/DownloadButton/DownloadButton";
 import Projects from "./components/Projects/Projects";
 import hm1 from "./imgs/hm1.png";
-import hm2 from "./imgs/hm2.png";
 import vp1 from "./imgs/vp1.png";
+import sp1 from "./imgs/sp1.png";
+import sp2 from "./imgs/sp2.png";
 
 function App() {
   return (
@@ -28,27 +29,22 @@ function App() {
           </div>
         </div>
         <div className="about_figs">
-          <a
-            href="https://github.com/WahlinLab/Human_RGC-iN/tree/main/Figure%204/Panel%20D/out"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img className="about_hm1" src={hm1} alt="heatmap" />
-          </a>
-          <a
-            href="https://github.com/WahlinLab/Human_RGC-iN/tree/main/Figure%204/Panel%20H/out"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img className="about_vp1" src={vp1} alt="volcano plot" />
-          </a>
-          <a
-            href="https://github.com/WahlinLab/Human_RGC-iN/tree/main/Figure%205/Panel%20F/out"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img className="about_hm2" src={hm2} alt="heatmap" />
-          </a>
+          <div className="about_sps">
+            <a
+              href="https://github.com/WahlinLab/Human_RGC-iN/tree/main/Figure%205/Panel%20F/out"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img className="about_sp1" src={sp1} alt="swarmplot" />
+            </a>
+            <a
+              href="https://github.com/WahlinLab/Human_RGC-iN/tree/main/Figure%204/Panel%20D/out"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img className="about_sp2" src={sp2} alt="heatmap" />
+            </a>
+          </div>
         </div>
         <div className="about_citations">
           <p>

@@ -96,6 +96,13 @@ body {
   right: 0;
 }
 
+.about_citations {
+  height: fit-content;
+  position: absolute;
+  bottom: -70px;
+  padding-left: 10px;
+}
+
 #resume {
   background-color: antiquewhite;
   height: fit-content;

@@ -50,6 +50,16 @@ function App() {
             <img className="about_hm2" src={hm2} alt="heatmap" />
           </a>
         </div>
+        <div className="about_citations">
+          <p>
+            Jones MK, Agarwal D, Mazo KW, Chopra M, Jurlina SL, Dash N, Xu Q,
+            Ogata AR, Chow M, Hill AD, Kambli NK, Xu G, Sasik R, Birmingham A,
+            Fisch KM, Weinreb RN, Enke RA, Skowronska-Krawczyk D, Wahlin KJ.
+            Chromatin Accessibility and Transcriptional Differences in Human
+            Stem Cell-Derived Early-Stage Retinal Organoids. Cells. 2022;
+            11(21):3412. https://doi.org/10.3390/cells11213412
+          </p>
+        </div>
       </section>
       <section id="projects">
         <Projects />

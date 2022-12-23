@@ -11,3 +11,13 @@ a {
   color: #111111;
   text-decoration: none;
 }
+
+.download_box {
+  border: 5px solid white;
+  background-color: #faebd7;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: fit-content;
+  height: fit-content;
+  margin: auto;
+}

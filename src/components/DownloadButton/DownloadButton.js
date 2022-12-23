@@ -5,7 +5,7 @@ import React from "react";
 
 function DownloadButton() {
   return (
-    <div>
+    <div className="download_box">
       <a href={resume} download="chopra_resume.pdf">
         <AiOutlineDownload size={50} style={{ color: "black" }} />
       </a>

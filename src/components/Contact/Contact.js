@@ -6,7 +6,7 @@ import React from "react";
 function Contact() {
   return (
     <>
-      <div className="box">
+      <div className="contact_box">
         <h1> You can contact me through email or LinkedIn </h1>
         <div className="horizontal">
           <div>

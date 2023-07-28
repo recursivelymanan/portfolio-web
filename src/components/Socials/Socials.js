@@ -1,5 +1,4 @@
 import "./Socials.css";
-import { AiFillTwitterCircle } from "react-icons/ai";
 import { AiFillGithub } from "react-icons/ai";
 import { AiFillLinkedin } from "react-icons/ai";
 import { ImLab } from "react-icons/im";
@@ -15,17 +14,6 @@ function Socials() {
           rel="noopener noreferrer"
         >
           <ImLab className="icon" size={53} style={{ color: "black" }} />
-        </a>
-        <a
-          href="https://twitter.com/literatureeee_"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <AiFillTwitterCircle
-            className="icon"
-            size={60}
-            style={{ color: "black" }}
-          />
         </a>
         <a
           href="https://github.com/recursivelymanan"

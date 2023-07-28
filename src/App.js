@@ -17,13 +17,6 @@ function App() {
         <div className="socials">
           <div className="icons">
             <a
-              href="https://twitter.com/literatureeee_"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <AiFillTwitterCircle size={50} style={{ color: "black" }} />
-            </a>
-            <a
               href="https://github.com/recursivelymanan"
               target="_blank"
               rel="noopener noreferrer"

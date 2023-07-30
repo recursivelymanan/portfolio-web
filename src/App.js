@@ -1,4 +1,5 @@
 import "./App.css";
+import React from "react";
 import NavBar from "./NavBar/NavBar";
 import { AiFillTwitterCircle } from "react-icons/ai";
 import { AiFillGithub } from "react-icons/ai";

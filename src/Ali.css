@@ -32,14 +32,25 @@ div.wrapper {
   bottom: 50%;
 }
 
-img.hover {
+img.hover-left {
   position: fixed;
   width: 30%;
   height: auto;
   left: 20%;
   z-index: 9999;
   animation: fadeIn 1s;
-  top: 10%;
+  top: 40%;
+  pointer-events: none;
+}
+
+img.hover-right {
+  position: fixed;
+  width: 30%;
+  height: auto;
+  left: 60%;
+  z-index: 9999;
+  animation: fadeIn 1s;
+  top: 30%;
   pointer-events: none;
 }
 

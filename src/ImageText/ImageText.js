@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function ImageText({ imgSrc, message, classname }) {
+function ImageText({ imgSrc, message, classname, side }) {
   const [hover, setHover] = useState(false);
 
   const mouseOver = () => {
@@ -22,7 +22,7 @@ function ImageText({ imgSrc, message, classname }) {
         {message}
       </p>
 
-      {hover && <img class="hover" src={imgSrc} />}
+      {hover && <img class={`hover-${side}`} src={imgSrc} />}
     </>
   );
 }

@@ -43,7 +43,7 @@ function Ali() {
         your PI walks up with someone new.
       </p>
       <ImageText
-        message="She's the new girl joining lab, and you will immediately notice her brilliant smile and gorgeous hair."
+        message="she's the new girl joining lab, and you will immediately notice her brilliant smile and gorgeous hair."
         imgSrc="/imgs/Welcome.jpg"
         classname="body"
         side="left"
@@ -144,7 +144,96 @@ function Ali() {
         officially start dating on a table at pacific cafe, and dont look back.
       </p>
       <p class="title">step 10</p>
-      <p class="body">date the girl of your dreams.</p>
+      <p class="body">
+        date the girl of your dreams, and fall completely in love with her every
+        day.
+      </p>
+      <p></p>
+      <p class="date">--------</p>
+      <p class="title">epilogue</p>
+      <p class="body">i hope you enjoyed that 'poem' :).</p>
+      <p class="body">
+        i thought it would be a cute way to show the little things that shaped
+        how i felt about you and how we would begin dating. ironically, it
+        doesn't really cover much of the year we actually dated.
+      </p>
+      <p class="body">
+        i didn't fall in love with you all at once after a great night, i didn't
+        have an epiphany after seeing you on some day. my love for you grew
+        slowly and steadily day by day, and all of a sudden i was madly in love.
+      </p>
+      <ImageText
+        message="every time we made food together, like this"
+        side="right"
+        classname="body"
+        imgSrc="/imgs/food1.jpg"
+      />
+      <ImageText
+        message="and this"
+        side="left"
+        classname="body"
+        imgSrc="/imgs/food2.PNG"
+      />
+      <ImageText
+        message="and this."
+        side="right"
+        classname="body"
+        imgSrc="/imgs/food3.jpg"
+      />
+      <ImageText
+        message="times we were out doing things together, like this"
+        side="left"
+        classname="body"
+        imgSrc="/imgs/stuff1.jpg"
+      />
+      <ImageText
+        message="and this"
+        side="right"
+        classname="body"
+        imgSrc="/imgs/stuff2.jpg"
+      />
+      <ImageText
+        message="and this"
+        side="left"
+        classname="body"
+        imgSrc="/imgs/stuff3.JPG"
+      />
+      <ImageText
+        message="and this"
+        side="right"
+        classname="body"
+        imgSrc="/imgs/stuff4.JPG"
+      />
+      <ImageText
+        message="and this"
+        side="left"
+        classname="body"
+        imgSrc="/imgs/stuff6.JPG"
+      />
+      <ImageText
+        message="and this"
+        side="right"
+        classname="body"
+        imgSrc="/imgs/stuff7.jpg"
+      />
+      <ImageText
+        message="and this."
+        side="left"
+        classname="body"
+        imgSrc="/imgs/stuff8.jpg"
+      />
+      <p class="body">
+        what i'm trying to say is that every single thing we've done togther
+        over the past year, whether we were staying home or venturing about in
+        la jolla has grown the love i have for you. i didn't think it was
+        possible to love someone this much, but tomorrow i will love you more
+        than i did today.
+      </p>
+      <p class="body">
+        i love you so much, and i can't wait to keep loving you every day for
+        the rest of our lives. you are my forever &lt;3
+      </p>
+      <p class="title">happy one year anniversary. with much love, manan</p>
     </>
   );
 }

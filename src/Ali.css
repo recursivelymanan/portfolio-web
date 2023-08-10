@@ -39,7 +39,7 @@ img.hover-left {
   left: 20%;
   z-index: 9999;
   animation: fadeIn 1s;
-  top: 40%;
+  top: 10%;
   pointer-events: none;
 }
 

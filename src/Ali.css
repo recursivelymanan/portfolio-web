@@ -85,6 +85,7 @@ p.body {
   overflow-wrap: break-word;
 }
 
-p {
-  width: fit-content;
+div.oneyear-root p {
+  width: 40%;
+  text-align: center;
 }

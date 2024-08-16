@@ -1,63 +1,8 @@
+div.main-root {
+  font-family: "Helvetica";
+  text-align: center;
+}
+
 h1 {
   color: #0d5b8f;
-  text-align: center;
-}
-
-div.socials {
-  position: relative;
-  top: 10px;
-}
-
-div.icons {
-  text-align: center;
-  position: relative;
-  top: 0px;
-}
-
-div.icons-msg {
-  text-align: center;
-  padding-top: 0;
-  position: relative;
-  top: -20px;
-}
-.react-icons {
-  vertical-align: middle;
-}
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

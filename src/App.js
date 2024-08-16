@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <title>Manan Chopra</title>
-      <div className="root">
+      <div className="main-root">
         <h1 class="construction-msg">
           {" "}
           Hello! My site is currently under construction.{" "}

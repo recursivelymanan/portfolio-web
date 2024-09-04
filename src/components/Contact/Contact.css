@@ -1,0 +1,27 @@
+.contact_header {
+  text-align: center;
+  margin-bottom: 30px;
+  height: fit-content;
+}
+
+.contact_text {
+  font-weight: normal;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+.horizontal {
+  text-align: center;
+}
+
+.contact_box {
+  border: 5px solid #faebd7;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: fit-content;
+  height: fit-content;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 20px;
+  margin: auto;
+}

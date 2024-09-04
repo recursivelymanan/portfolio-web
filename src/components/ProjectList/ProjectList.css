@@ -1,0 +1,26 @@
+Card {
+  word-wrap: break-word;
+  display: inline-block;
+}
+
+.MuiCard-root {
+  border: 5px solid #faebd7;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+}
+
+.MuiTypography-root {
+  font-family: "Trebuchet MS", "sans-serif" !important;
+}
+
+#left {
+  text-align: left;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+#center {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

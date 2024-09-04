@@ -1,5 +1,5 @@
 import "./DownloadButton.css";
-import resume from "../../mananChopraResume.pdf";
+import resume from "../../docs/mananChopraResume.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import React from "react";
 

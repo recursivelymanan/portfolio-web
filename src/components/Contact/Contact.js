@@ -13,7 +13,7 @@ function Contact() {
         <div className="horizontal">
           <div>
             <AiOutlineMail size={35} />
-            <h3 className="contact_text">m1chopra[at]ucsd[dot]edu</h3>
+            <h3 className="contact_text">manan.zchopra[at]gmail[dot]com</h3>
           </div>
           <div>
             <a

@@ -65,7 +65,7 @@ body {
 #resume {
   background-color: antiquewhite;
   height: fit-content;
-  padding-bottom: 20px;
+  padding: 3vh;
 }
 
 #contact {
@@ -85,4 +85,5 @@ body {
 
 .resume_text {
   text-align: center;
+  margin-top: 0vh;
 }

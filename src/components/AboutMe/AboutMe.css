@@ -10,8 +10,8 @@
 }
 
 .about_name {
-  font-family: "Times New Roman";
-  font-size: 15vh;
+  color: black;
+  font-size: 10vh;
   margin-top: 0px;
   margin-bottom: 0px;
   width: fit-content;
@@ -24,26 +24,6 @@
   right: 0;
   display: flex;
   flex-direction: row;
-}
-
-.about_sps {
-  align-items: flex-start;
-}
-
-.about_sp1 {
-  margin-top: 15px;
-  margin-bottom: -20px;
-}
-
-.about_vphm {
-  align-items: flex-end;
-}
-
-.about_hm1 {
-}
-
-.about_vp1 {
-  padding-right: 25px;
 }
 
 .about_citations {

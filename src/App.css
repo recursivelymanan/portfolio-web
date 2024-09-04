@@ -58,7 +58,8 @@ body {
 
 #about {
   background-color: antiquewhite;
-  height: 100vh;
+  height: 30vh;
+  padding-top: 5vh;
 }
 
 #resume {

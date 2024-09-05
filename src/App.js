@@ -37,7 +37,7 @@ function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            hand coded by manan chopra in la jolla
+            hand coded by manan chopra in the SF bay area
           </a>
         </span>
       </section>

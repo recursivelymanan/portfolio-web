@@ -34,5 +34,17 @@
       "title": "Induction of Retinal Ganglion Cells through Transcription Factor Mediated Reprogramming",
       "date": "May 2023"
     }
+  ],
+  "projects": [
+    {
+      "title": "NGS Bulk RNAseq Workflow",
+      "skills": "Nextflow, Docker, AWS",
+      "url": "https://github.com/recursivelymanan/NGS-bulk-pipeline"
+    },
+    {
+      "title": "Portfolio Website (This website!)",
+      "skills": "Javascript, React",
+      "url": "https://github.com/recursivelymanan/portfolio-web"
+    }
   ]
 }

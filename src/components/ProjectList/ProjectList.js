@@ -9,6 +9,21 @@ import Button from "@mui/material/Button";
 
 function ProjectList() {
   const raised = true;
+  const projects = works.projects.map((proj) => {
+    return (
+      <Card id="left" sx={{ width: 1 / 4 }} style={{ display: "inline-block" }}>
+        <CardContent>
+          <Typography variant="h6">{proj.title}</Typography>
+          <Typography>{proj.skills}</Typography>
+        </CardContent>
+        <CardActions>
+          <a href={proj.url} target="_blank" rel="noopener noreferrer">
+            <Button size="large">GitHub</Button>
+          </a>
+        </CardActions>
+      </Card>
+    );
+  });
   const publications = works.publications.map((pub) => {
     return (
       <Card id="left" sx={{ width: 1 / 4 }} style={{ display: "inline-block" }}>
@@ -42,6 +57,8 @@ function ProjectList() {
   });
   return (
     <div>
+      <h1 id="center">Projects</h1>
+      <div id="center">{[projects]}</div>
       <h1 id="center">Publications</h1>
       <div id="center">{publications}</div>
       <h1 id="center">Presentations</h1>

@@ -1,9 +1,9 @@
 import React from "react";
-import Home from "./Home.js"
-import Movies from "./Movies.js"
+import Home from "./Home.js";
+import Movies from "./Movies.js";
 import "./App.css";
 
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (

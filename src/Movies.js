@@ -1,7 +1,14 @@
 import React from "react";
+import NavBar from "./components/NavBar/NavBar";
 
 function Movies() {
-  return <p>Hello world!</p>;
+  return (
+    <>
+      <header className="nav">
+        <NavBar className="nav" />
+      </header> 
+    </>
+  );
 }
 
 export default Movies;

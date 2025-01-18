@@ -1,5 +1,5 @@
 import "./ProjectList.css";
-import works from "../../works.json";
+import works from "../../../works.json";
 import React from "react";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";

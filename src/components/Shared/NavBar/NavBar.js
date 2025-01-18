@@ -14,19 +14,11 @@ function NavBar() {
         <li id="nav-icon">
           <AiFillCaretRight size={15} style={{ color: "black" }} />
         </li>
+        <li class="mainPage">
+          <RouterLink to="/">HOME</RouterLink>
+        </li>
         {location.pathname === "/" ? (
           <>
-            <li>
-              <ScrollLink
-                activeClass="active"
-                smooth
-                spy
-                to="about"
-                offset={-65}
-              >
-                MANAN CHOPRA
-              </ScrollLink>
-            </li>
             <li>
               <ScrollLink
                 activeClass="active"
@@ -35,7 +27,7 @@ function NavBar() {
                 to="projects"
                 offset={-65}
               >
-                PROJECTS
+                projects
               </ScrollLink>
             </li>
             <li>
@@ -46,7 +38,7 @@ function NavBar() {
                 to="resume"
                 offset={-65}
               >
-                RESUME
+                resume
               </ScrollLink>
             </li>
             <li>
@@ -57,18 +49,23 @@ function NavBar() {
                 to="contact"
                 offset={-65}
               >
-                CONTACT ME
+                contact me
               </ScrollLink>
             </li>
           </>
         ) : (
-          <li>
-            <RouterLink to="/">HOME</RouterLink>
-          </li>
+          <></>
         )}
         <li>
-          <RouterLink to="/movies">MOVIES</RouterLink>
+          <RouterLink to="/mediareviews">MEDIA REVIEWS</RouterLink>
         </li>
+        {location.pathname === "/mediareviews" ? (
+          <li>
+            <ScrollLink></ScrollLink>
+          </li>
+        ) : (
+          <></>
+        )}
       </ul>
     </nav>
   );

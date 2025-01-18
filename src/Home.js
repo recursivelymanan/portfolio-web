@@ -1,11 +1,11 @@
 import React from "react";
 
-import AboutMe from "./components/AboutMe/AboutMe";
-import NavBar from "./components/NavBar/NavBar";
-import Contact from "./components/Contact/Contact";
-import Socials from "./components/Socials/Socials";
-import DownloadButton from "./components/DownloadButton/DownloadButton";
-import Projects from "./components/Projects/Projects";
+import AboutMe from "./components/Home/AboutMe/AboutMe";
+import NavBar from "./components/Shared/NavBar/NavBar";
+import Contact from "./components/Home/Contact/Contact";
+import Socials from "./components/Shared/Socials/Socials";
+import DownloadButton from "./components/Home/DownloadButton/DownloadButton";
+import Projects from "./components/Home/Projects/Projects";
 
 function Home() {
   return (

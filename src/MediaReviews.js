@@ -1,6 +1,7 @@
 import React from "react";
 import NavBar from "./components/Shared/NavBar/NavBar";
 import Socials from "./components/Shared/Socials/Socials";
+import DBTest from "./components/MediaReviews/DBTest/DBTest";
 
 function MediaReviews() {
   return (
@@ -9,6 +10,7 @@ function MediaReviews() {
         <NavBar className="nav" />
       </header>
       <Socials />
+      <DBTest />
     </>
   );
 }

@@ -7,6 +7,12 @@
 # testing
 /coverage
 
+#edgedb
+/dbschema
+/server
+.env
+edgedb.toml
+
 # production
 /build
 

@@ -1,3 +1,5 @@
+> As of May 29 2025 this repository has been archived and is read-only. My website (at the same URL) is now deployed from the source code found in [this repo](https://github.com/recursivelymanan/manan-chopra.com).
+
 This website hosts all of the code for [my website](https://manan-chopra.com).
 
 ## Motivation
